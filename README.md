@@ -41,11 +41,7 @@ Run `yarn install` to ensure the latest dependencies are installed, then use `ya
 ## Basic Usage
 
 By default, the application will be pointing to your local server http://localhost:1080/prweb.
-To login to Cable Connect sample application, you can use any of the following credentials:
-_ operator: rep.cableco, password: pega - case worker
-_ operator: tech.cableco, password: pega – case worker
-_ operator: manager.cableco, password: pega – case manager
-_ operator: admin.cableco, password: pega – developer/admin
+
 
 Once logged in, you can create cases from the CaseType list, open WorkObjects from the WorkList, and perform end-to-end flows, based on the data returned from the API.
 

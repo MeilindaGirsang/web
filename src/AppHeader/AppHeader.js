@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Menu, Icon, Dropdown } from "semantic-ui-react";
 import { Link, withRouter } from "react-router-dom";
+import Logo from "./Labb.jpg";
 
 class AppHeader extends Component {
   render() {
@@ -13,11 +14,12 @@ class AppHeader extends Component {
           </Menu.Item>
         )}
         <Menu.Item name="app" as={Link} to="/">
-          <Icon name="home" size="large" />
-          PegaApp
+
+          <img src={Logo} alt="Labb logo" height="50px" width="50px" />
+          Labb Pega DXAPI Adapter
         </Menu.Item>
         <Menu.Menu position="right">
-          <Menu.Item>v1.2.0</Menu.Item>
+          <Menu.Item>v1.0.0</Menu.Item>
           {!this.props.loggedIn && (
             <Menu.Item
               name="login"

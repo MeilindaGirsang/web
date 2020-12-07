@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Form, Grid, Header, Icon, Input, Button } from "semantic-ui-react";
+import { Form, Grid, Header, Input, Button } from "semantic-ui-react";
 
 import { userActions } from "../_actions";
 
+import Logo from "./Labb long.jfif";
 class LoginPage extends Component {
   constructor(props) {
     super(props);
@@ -36,9 +37,11 @@ class LoginPage extends Component {
     return (
       <Grid verticalAlign="middle" textAlign="center">
         <Grid.Column>
+          <p><img src={Logo} alt="Labb logo" iconPosition="middle" height="200px" /></p>
           <Header style={{ marginTop: 12 }} color="blue" as="h2" icon>
-            <Icon name="home" />
-            <Header.Content>Login with Pega</Header.Content>
+
+
+            <Header.Content>Login to Pega DXAPI Adapter</Header.Content>
           </Header>
           <Form size="large" onSubmit={e => this.handleSubmit(e)}>
             <Form.Field>
