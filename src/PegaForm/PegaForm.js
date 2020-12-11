@@ -1242,7 +1242,7 @@ class PegaForm extends Component {
     returnValue = this.sanitizeHTML(returnValue);
     return returnValue;
   }
-
+  
   getCurrencyFormatOptions(mode) {
     // ignoring most of the settings, but you get the idea
     let locale = navigator.language;
