@@ -10,7 +10,7 @@
 
 ## Basic Information
 
-The Pega React Starter Kit shows how to construct an React application to utilize the Pega-APIs with layout and field information.
+The DXAPI Adapter Kit shows how to render a Pega application utilizing the DX APIs with layout and field information.
 
 ## Development Environment:
 
