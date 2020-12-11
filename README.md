@@ -20,19 +20,14 @@ _ Yarn version: 1.13.0
 
 ## Installation Instructions
 
-1.  Get Pega React Starter Pack zip file from Pega Exchange
-2.  Unzip the PegaReactStarterPack813.zip, it should create PegaReactStarterPack813 directory that contains the following sub-directories:
-    CableConnectApp, Documents and ReactApp
-3.  Using a terminal, cd into ./PegaReactStarterPack813.
-4.  Install Cable Connect sample application by following the instruction in ./CableConnectSampleApp.pdf
-5.  Make sure that your application server supports CORS.
-6.  Install Yarn. Installation link [here](https://yarnpkg.com/lang/en/docs/install/#mac-stable).
-7.  Using a terminal, cd into ./ReactApp directory and unzip PegaReact.zip.
-8.  Using a terminal, cd into ./pegaapp-react
-9.  Run the following commands:
+1.  Make sure that your Pega operator ID has added WLBank:Administrator as the main Access Group.
+2.  Download this repository as a zip. Unzip in your chosen local directory.
+3.  Using a terminal, cd into that directory.
+4.  Install Yarn. Installation link [here](https://yarnpkg.com/lang/en/docs/install/#mac-stable).
+5.  Run the following commands:
     * `yarn install`
     * `yarn start`
-10. This should open your browser to http://localhost:3000, which is where the application will be served.
+6. This should open your browser to http://localhost:3000, which is where the application will be served.
 
 ## Updating to a New Version of the Application
 
@@ -41,6 +36,7 @@ Run `yarn install` to ensure the latest dependencies are installed, then use `ya
 ## Basic Usage
 
 By default, the application will be pointing to your local server http://localhost:1080/prweb.
+To login to React application, you can use your Pega operator credentials.
 
 
 Once logged in, you can create cases from the CaseType list, open WorkObjects from the WorkList, and perform end-to-end flows, based on the data returned from the API.
