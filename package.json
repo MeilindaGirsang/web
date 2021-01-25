@@ -6,7 +6,8 @@
     "husky": "^0.14.3",
     "prettier": "1.12.1",
     "pretty-quick": "^1.5.1",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "homepage": "https://meilindagirsang.github.io/web/"
   },
   "dependencies": {
     "axios": "^0.18.0",
