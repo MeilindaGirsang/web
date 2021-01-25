@@ -1,7 +1,7 @@
 {
   "homepage": "https://meilindagirsang.github.io/web/",
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Pega DX API",
+  "name": "Labb Consulting",
   "icons": [
     {
       "src": "Labb.ico",
@@ -9,7 +9,7 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": "./public/index.html",
+  "start_url": "/public/index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
